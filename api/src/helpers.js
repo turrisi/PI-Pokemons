@@ -86,7 +86,7 @@ let getPokemonDbByID = async (id) => {
             'height',
         ],
         include: {
-            model: Type,
+            model: Types,
         },
     });
     info = info.find((poke) => poke.id === id);

@@ -1,3 +1,4 @@
+import './paged.css'
 export default function Paged({ pokePerPage, paged, pokes }) {
     const pageNumber = []
     for (let i = 1; i <= Math.ceil(pokes / pokePerPage); i++) {
@@ -5,9 +6,11 @@ export default function Paged({ pokePerPage, paged, pokes }) {
     }
     return (
         <div >
-            <div>
+            <div className="page" >
                 {pageNumber && pageNumber.map(n => (
-                        <p onClick={() => paged(n)} key={n}> {n} </p>
+                    <>
+                        <span onClick={() => paged(n)} key={n} className= 'item'>  {n}  </span>
+                    </>
                 ))
                 }
             </div>

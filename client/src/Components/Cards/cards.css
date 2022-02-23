@@ -1,0 +1,25 @@
+.poke{
+    background-color: rgba(255, 251, 0, 0.602);
+    /* height: 200px;
+    width: 250px; */
+    align-content: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(0, 0, 255, 0.493);
+    text-align: center;
+    margin: 5px;
+}
+.poke  img {
+    /* object-fit: scale-down; */
+    max-width: 150px;
+    max-height: 200px; 
+}
+.button{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: yellow;
+    border-color: blue;
+    border-radius: 5px;
+    margin-left: 0%;
+}

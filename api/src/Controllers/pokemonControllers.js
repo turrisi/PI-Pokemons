@@ -6,7 +6,7 @@ const {
 	getPokemonDbByID,
 } = require('../helpers');
 
-const { Pokemon, Types } = require('../db');
+const { Pokemon } = require('../db');
 
 const getAllPokemons = async (name) => {
 	try {

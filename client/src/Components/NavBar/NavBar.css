@@ -1,0 +1,101 @@
+.nav{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 25%25%25%25%;
+    background-color: gold;
+    border-width: thick;
+    border-style: solid;
+    color: midnightblue;
+    margin-right: auto;
+}
+.lab1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px;
+    height:20px;
+}
+.in {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: blue;
+    margin: 5px;
+}
+.but1 {
+    grid-row-start: 3;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: yellow;
+    border-color: blue;
+    border-radius: 5px;
+    margin: 5px;
+}
+.lab2 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px;
+    height:20px;
+}
+.sel {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 5px;
+    align-self: center;
+    align-items: center;
+    width: 150px;
+}
+.pikadance {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border-color: blue;
+    border-radius: 120px;
+    width: 120px;
+    border: solid;
+    margin: 5px;
+    align-self: center;
+}
+.cre {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: yellow;
+    border-color: blue;
+    border-radius: 5px;
+    margin: 5px;
+}
+.space1{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+select {
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 5px;
+    align-self: center;
+    align-items: center;
+    width: 150px;
+}
+.lab3{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px;
+    height:20px;
+}
+.lab4{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px;
+    height:20px;
+}

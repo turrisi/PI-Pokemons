@@ -7,13 +7,13 @@ export const SORT_UP = 'SORT_UP'
 export const SORT_DOWN = 'SORT_DOWN'
 export const STR_UP = 'STR_UP'
 export const STR_DOWN = 'STR_DOWN'
+export const GET_POKE_BY_ID = 'GET_POKE_BY_ID'
 const back = 'http://localhost:3001/'
 
 
 export function getPokemons() {
   return async function (dispatch) {
     const { data } = await axios.get(back + 'pokemons')
-    console.log(data)
     dispatch({ type: GET_POKEMONS, payload: data })
   }
 }
@@ -67,3 +67,15 @@ export function postPokemon(payload){
     console.log(error)
   }
 }
+export function getPokeId(id){
+  return async function(dispatch){
+    try{
+      const {data} = await axios.get(back + 'pokemons/' + id)
+      dispatch(
+        {type: GET_POKE_BY_ID, payload: data}
+      )
+    }catch(error){
+      console.log(error)
+    }
+
+  }}

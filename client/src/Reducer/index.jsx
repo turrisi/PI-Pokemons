@@ -6,7 +6,8 @@ import {
     SORT_UP,
     SORT_DOWN,
     STR_UP,
-    STR_DOWN
+    STR_DOWN,
+    GET_POKE_BY_ID
 } from '../Actions/index'
 
 const initialState = {
@@ -83,6 +84,12 @@ export default function rootReducer(state = initialState, { type, payload }) {
             return {
                 ...state,
                 allPokemons: [...list]
+            }
+        }
+        case GET_POKE_BY_ID:{
+            return {
+                ...state,
+                pokemon: payload
             }
         }
         default: return state

@@ -1,0 +1,192 @@
+.wall{   
+    background-color: rgba(255, 255, 0, 0.5);
+    width: 60%;
+    border-style: solid;
+    border-color: rgba(0, 0, 255, 0.5);
+    border-radius: 10px;
+    margin: 25%;
+    margin-top: 5%;
+    width:50%;
+}
+.close{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: yellow;
+    border-color: blue;
+    border-radius: 20px;
+}
+.create{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: yellow;
+    border-color: blue;
+    border-radius: 5px;
+    grid-column-start: 2;
+    width:50%;
+}
+.content{
+    display:grid;
+    grid-template-areas: (
+        'title title'
+        'labels1 name'
+        'labels2 hp'
+        'labels3 attack'
+        'labels4 img'
+        'labels5 defense'
+        'labels6 speed'
+        'labels7 height'
+        'labels8 weight'
+        'labels9 types'
+    );
+    align-items: center;
+    margin: 3%;
+}
+.title{
+    grid-area: title;
+    text-align: center;
+    color: blue;
+}
+.labels1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    background-color: rgba(255, 255, 0, 0.493);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+    width:50%;
+    margin-left: auto;
+}
+.labels2{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    background-color: rgba(255, 255, 0, 0.493);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+    width:50%;
+    margin-left: auto;
+}
+.labels3{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    background-color: rgba(255, 255, 0, 0.493);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+    width:50%;
+    margin-left: auto;
+}
+.labels4{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    background-color: rgba(255, 255, 0, 0.493);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+    width:50%;
+    margin-left: auto;
+}
+.labels5{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    background-color: rgba(255, 255, 0, 0.493);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+    width:50%;
+    margin-left: auto;
+}
+.labels6{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    background-color: rgba(255, 255, 0, 0.493);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+    width:50%;
+    margin-left: auto;
+}
+.labels7{
+    grid-column-start: 1;
+    grid-row-start: 7;
+    background-color: rgba(255, 255, 0, 0.493);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+    width:50%;
+    margin-left: auto;
+}
+.labels8{
+    grid-column-start: 1;
+    grid-row-start: 8;
+    background-color: rgba(255, 255, 0, 0.493);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+    width:50%;
+    margin-left: auto;
+}
+.labels9{
+    grid-column-start: 1;
+    grid-row-start: 9;
+    background-color: rgba(255, 255, 0, 0.493);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+    width:50%;
+    margin-left: auto;
+}
+.name{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    width:50%;
+}
+.hp{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    width:50%;
+}
+.attack{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    width:50%;
+}
+.img{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    width:50%;
+}
+.defense{
+    grid-column-start: 2;
+    grid-row-start: 5;
+    width:50%;
+}
+.speed{
+    grid-column-start: 2;
+    grid-row-start: 6;
+    width:50%;
+}
+.height{
+    grid-column-start: 2;
+    grid-row-start: 7;
+    width:50%;
+}
+.weight{
+    grid-column-start: 2;
+    grid-row-start: 8;
+    width:50%;
+}
+.types{
+    grid-column-start: 2;
+    grid-row-start: 9;
+    width:50%;
+}
